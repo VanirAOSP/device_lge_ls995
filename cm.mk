@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/cdma.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
@@ -18,8 +18,8 @@ $(call inherit-product, device/lge/ls995/ls995.mk)
 PRODUCT_DEVICE := ls995
 PRODUCT_NAME := cm_ls995
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG-D959
-PRODUCT_MANUFACTURER := lge
+PRODUCT_MODEL := LG-LS995
+PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=lge/z_tmo_us/zee:4.4.2/KOT49I.D95920h/D95920h.1398665038:user/release-keys \
