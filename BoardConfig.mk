@@ -16,9 +16,9 @@
 
 include device/lge/z-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := z-tmo-perf_defconfig
-#TARGET_KERNEL_CONFIG := cyanogenmod_d959_defconfig
+TARGET_KERNEL_CONFIG := z-spr-perf_defconfig
+#TARGET_KERNEL_CONFIG := cyanogenmod_ls995_defconfig
 
-G2_DTS_TARGET := msm8974-z-tmo
+G2_DTS_TARGET := msm8974-z-spr
 
-TARGET_OTA_ASSERT_DEVICE := zee,f340k,d959,d950
+TARGET_OTA_ASSERT_DEVICE := zee,f340k,ls995,d950
