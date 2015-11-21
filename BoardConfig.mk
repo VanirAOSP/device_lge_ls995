@@ -20,3 +20,7 @@ TARGET_KERNEL_CONFIG := z-spr-perf_defconfig
 G2_DTS_TARGET := msm8974-z-spr
 
 TARGET_OTA_ASSERT_DEVICE := zee,f340k,ls995,d950
+
+# RIL
+BOARD_RIL_CLASS += ../../../device/lge/ls980/ril/
+
