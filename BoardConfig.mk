@@ -1,6 +1,4 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
-#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -17,7 +15,7 @@
 include device/lge/z-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := z-spr-perf_defconfig
-#TARGET_KERNEL_CONFIG := cyanogenmod_ls995_defconfig
+#TARGET_KERNEL_CONFIG := lineageos_ls995_defconfig
 
 G2_DTS_TARGET := msm8974-z-spr
 
